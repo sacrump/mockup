@@ -19,5 +19,5 @@ Group Travel - User Stories
 
 ## Products
 
-| ID | SKU | Price |
-| 1 | 1 | 1 |
+# | ID | SKU | Price |
+# | 1 | 1 | 1 |
