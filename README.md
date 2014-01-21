@@ -1,4 +1,4 @@
-User Stories for my Web App
+Group Travel - User Stories
 ======
 
 1. As a user, I want to insert my flight information
