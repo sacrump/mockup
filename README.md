@@ -1,7 +1,6 @@
 # Group Travel
 
 ## User Stories
-======
 
 1. As a user, I want to insert my flight information
 2. As a user, I want to see my friends' flight information
@@ -18,7 +17,6 @@
 13. As an admin, I want to be able to control read/write permission
 
 ## Domain Modeling
-======
 
 ### Products
 
