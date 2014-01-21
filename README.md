@@ -1,4 +1,6 @@
-Group Travel - User Stories
+# Group Travel
+
+## User Stories
 ======
 
 1. As a user, I want to insert my flight information
@@ -15,9 +17,10 @@ Group Travel - User Stories
 12. As a user, I want to be update on travel restrictions, visas etc
 13. As an admin, I want to be able to control read/write permission
 
-# Domain Modeling
+## Domain Modeling
+======
 
-## Products
+### Products
 
-# | ID | SKU | Price |
-# | 1 | 1 | 1 |
+| ID | SKU | Price |
+| 1 | 1 | 1 |
