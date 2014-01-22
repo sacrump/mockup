@@ -18,7 +18,27 @@
 
 ## Domain Modeling
 
-### Products
+Users
 
-| ID | SKU | Price |
-| 1 | 1 | 1 |
+| Id (integer) | First (string) | Last (string) |
+| ------------ | -------------- | ------------- | 
+| 1            | Stephen        | Crump         |
+| 2            | Eric           | Lee           |      
+| 3            | Wonjun         | Lee           | 
+| 4            | Jon            | Finch         |
+
+Airline
+
+| Id (integer) | Name (text)        | Cost (integer) | Covered by (integer) |
+| ------------ | ------------------ | -------------- | -------------------- |
+| 1            | Airbnb             | 450            | 1                    |
+| 2            | Rental car         | 200            | 2                    |  
+| 3            | Groceries          | 120            | 2                    |
+
+Payments
+
+| Id (integer) | Expense id (integer) | Payor (integer) | Payee (integer) |
+| ------------ | -------------------- | --------------- | --------------- |
+| 1            | 1                    | 1               | 2               |
+| 2            | 1                    | 1               | 3               |  
+| 3            | 1                    | 1               | 4               |
