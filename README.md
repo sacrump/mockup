@@ -63,6 +63,7 @@ Flight Information
 
 | Id (integer) | User Id (integer) | Airline Id (integer) | Flight Number Id (integer) | Departure Airport Id (integer) | Arrival Airport Id (integer) |
 | ------------ | ----------------- | -------------------- | -------------------------- | ------------------------------ | ---------------------------- |
-| 1            | 1                 | 2                    | 
-| 2            | 
-| 3            |
+| 1            | 1                 | 2                    | 1                          | 1                              | 1                            |
+| 2            | 2                 | 1                    | 2                          | 1                              | 1                            |
+| 3            | 3                 | 3                    | 3                          | 3                              | 1                            |
+| 4            | 4                 | 3                    | 1                          | 2                              | 1                            |
