@@ -29,16 +29,40 @@ Users
 
 Airline
 
-| Id (integer) | Name (text)        | Cost (integer) | Covered by (integer) |
-| ------------ | ------------------ | -------------- | -------------------- |
-| 1            | Airbnb             | 450            | 1                    |
-| 2            | Rental car         | 200            | 2                    |  
-| 3            | Groceries          | 120            | 2                    |
+| Id (integer) | Name (text) |
+| ------------ | ----------- |
+| 1            | United      |
+| 2            | American    |
+| 3            | Delta       |
 
-Payments
+Flight Number
 
-| Id (integer) | Expense id (integer) | Payor (integer) | Payee (integer) |
-| ------------ | -------------------- | --------------- | --------------- |
-| 1            | 1                    | 1               | 2               |
-| 2            | 1                    | 1               | 3               |  
-| 3            | 1                    | 1               | 4               |
+| Id (integer) | Flight Number (integer) |
+| ------------ | ----------------------- |
+| 1            | 123                     |
+| 2            | 456                     |
+| 3            | 789                     |
+
+Departure Airport
+
+| Id (integer) | Departure Airport Code (text) |
+| ------------ | ----------------------------- |
+| 1            | ORD                           |
+| 2            | LGA                           |
+| 3            | SFO                           |
+
+Arrival Airport
+
+| Id (integer) | Arrival Airport Code (text) |
+| ------------ | --------------------------- |
+| 1            | IAH                         |
+| 2            | MDW                         |
+| 3            | JFK                         |
+
+Flight Information
+
+| Id (integer) | User Id (integer) | Airline Id (integer) | Flight Number Id (integer) | Departure Airport Id (integer) | Arrival Airport Id (integer) |
+| ------------ | ----------------- | -------------------- | -------------------------- | ------------------------------ | ---------------------------- |
+| 1            | 1                 | 2                    | 
+| 2            | 
+| 3            |
