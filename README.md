@@ -18,7 +18,7 @@
 
 ## Domain Modeling
 
-Users
+### Users
 
 | Id (integer) | First (string) | Last (string) |
 | ------------ | -------------- | ------------- | 
@@ -27,7 +27,7 @@ Users
 | 3            | Wonjun         | Lee           | 
 | 4            | Jon            | Finch         |
 
-Airline
+### Airline
 
 | Id (integer) | Name (text) |
 | ------------ | ----------- |
@@ -35,7 +35,7 @@ Airline
 | 2            | American    |
 | 3            | Delta       |
 
-Flight Number
+### Flight Number
 
 | Id (integer) | Flight Number (integer) |
 | ------------ | ----------------------- |
@@ -43,7 +43,7 @@ Flight Number
 | 2            | 456                     |
 | 3            | 789                     |
 
-Departure Airport
+### Departure Airport
 
 | Id (integer) | Departure Airport Code (text) |
 | ------------ | ----------------------------- |
@@ -51,7 +51,7 @@ Departure Airport
 | 2            | LGA                           |
 | 3            | SFO                           |
 
-Arrival Airport
+### Arrival Airport
 
 | Id (integer) | Arrival Airport Code (text) |
 | ------------ | --------------------------- |
@@ -59,7 +59,7 @@ Arrival Airport
 | 2            | MDW                         |
 | 3            | JFK                         |
 
-Flight Information
+### Flight Information
 
 | Id (integer) | User Id (integer) | Airline Id (integer) | Flight Number Id (integer) | Departure Airport Id (integer) | Arrival Airport Id (integer) |
 | ------------ | ----------------- | -------------------- | -------------------------- | ------------------------------ | ---------------------------- |
