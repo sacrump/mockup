@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Travel with your Tribe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Tribe.ly</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#plan">Plan</a></li>
+            <li><a href="#travelinfo">Travel Information</a></li>
+            <li><a href="#expenses">Expenses</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Stephen Crump<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Add Flight</a></li>
+                <li><a href="#">Add Hotel</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="../navbar/">Create a Trip</a></li>
+            <li><a href="../navbar-static-top/">Login</a></li>
+            <li><a href="./">Sign Up</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Create a Trip</h1>
+        <p>Itching to get out of Dodge? Looking to see the world? To get the ball rolling, we need you to enter your flight information so that we get a sense of the trip you have in mind. </p>
+        <p>Don't worry! You won't be alone. You can add your Tribe later, but let's talk about you first...</p>
+
+        <h2>Getting Away</h2>
+
+        <form role="form">
+          <p class="form-group">
+            <label for="departureairline-away">Airline</label>
+            <input type="text" class="form-control" id="departureairline-away" placeholder="Ex: United">
+          </p>
+
+          <p class="form-group">
+            <label for="flightnumber-away">Flight #</label>
+            <input type="text" class="form-control" id="flightnumber-away" placeholder="Ex: 1234">
+          </p>
+
+          <p class="form-group">
+            <label for="departureairport-away">Departure Airport</label>
+            <input type="text" class="form-control" id="departureairport-away" placeholder="Airport Code">
+          </p>
+
+          <p class="form-group">
+            <label for="departuredatetime-away">Date & Time</label>
+            <input type="datetime-local" class="form-control" id="departuredatetime-away">
+          </p>
+
+          <p class="form-group">
+            <label for="arrivalairport-away">Arrival Airport</label>
+            <input type="text" class="form-control" id="arrivalairport-away" placeholder="Airport Code">
+          </p>
+
+          <p class="form-group">
+            <label for="arrivaldatetime-away">Date & Time</label>
+            <input type="datetime-local" class="form-control" id="arrivaldatetime-away">
+          </p>
+
+          <h2>Getting Home</h2>
+
+          <p class="form-group">
+            <label for="departureairline-home">Airline</label>
+            <input type="text" class="form-control" id="departureairline-home" placeholder="Ex: United">
+          </p>
+
+          <p class="form-group">
+            <label for="flightnumber-home">Flight #</label>
+            <input type="text" class="form-control" id="flightnumber-home" placeholder="Ex: 1234">
+          </p>
+
+          <p class="form-group">
+            <label for="departureairport-home">Departure Airport</label>
+            <input type="text" class="form-control" id="departureairport-home" placeholder="Airport Code">
+          </p>
+
+          <p class="form-group">
+            <label for="departuredatetime-home">Date & Time</label>
+            <input type="datetime-local" class="form-control" id="departuredatetime-home">
+          </p>
+
+          <p class="form-group">
+            <label for="arrivalairport-home">Arrival Airport</label>
+            <input type="text" class="form-control" id="arrivalairport-home" placeholder="Airport Code">
+          </p>
+
+          <p class="form-group">
+            <label for="arrivaldatetime-home">Date & Time</label>
+            <input type="datetime-local" class="form-control" id="arrivaldatetime-home">
+          </p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">SUBMIT MY FLIGHT &raquo;</a>
+        </form>
+
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
