@@ -11,7 +11,7 @@
     <title>Travel with your Tribe</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://bootswatch.com/simplex/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="navbar-fixed-top.css" rel="stylesheet">
@@ -80,68 +80,82 @@
         <h2>Getting Away</h2>
 
         <form role="form">
-          <p class="form-group">
-            <label for="departureairline-away">Airline</label>
-            <input type="text" class="form-control" id="departureairline-away" placeholder="Ex: United">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="departureairline-away">Airline</label>
+              <input type="text" class="form-control" id="departureairline-away" placeholder="Ex: United">
+            </p>
 
-          <p class="form-group">
-            <label for="flightnumber-away">Flight #</label>
-            <input type="text" class="form-control" id="flightnumber-away" placeholder="Ex: 1234">
-          </p>
+            <p class="col-md-6">
+              <label for="flightnumber-away">Flight #</label>
+              <input type="text" class="form-control" id="flightnumber-away" placeholder="Ex: 1234">
+            </p>
+          </div>
 
-          <p class="form-group">
-            <label for="departureairport-away">Departure Airport</label>
-            <input type="text" class="form-control" id="departureairport-away" placeholder="Airport Code">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="departureairport-away">Departure Airport</label>
+              <input type="text" class="form-control" id="departureairport-away" placeholder="Airport Code">
+            </p>
 
-          <p class="form-group">
-            <label for="departuredatetime-away">Date & Time</label>
-            <input type="datetime-local" class="form-control" id="departuredatetime-away">
-          </p>
+            <p class="col-md-6">
+              <label for="departuredatetime-away">Date & Time</label>
+              <input type="datetime-local" class="form-control" id="departuredatetime-away">
+            </p>
+          </div>
 
-          <p class="form-group">
-            <label for="arrivalairport-away">Arrival Airport</label>
-            <input type="text" class="form-control" id="arrivalairport-away" placeholder="Airport Code">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="arrivalairport-away">Arrival Airport</label>
+              <input type="text" class="form-control" id="arrivalairport-away" placeholder="Airport Code">
+            </p>
 
-          <p class="form-group">
-            <label for="arrivaldatetime-away">Date & Time</label>
-            <input type="datetime-local" class="form-control" id="arrivaldatetime-away">
-          </p>
+            <p class="col-md-6">
+              <label for="arrivaldatetime-away">Date & Time</label>
+              <input type="datetime-local" class="form-control" id="arrivaldatetime-away">
+            </p>
+          </div>
 
           <h2>Getting Home</h2>
 
-          <p class="form-group">
-            <label for="departureairline-home">Airline</label>
-            <input type="text" class="form-control" id="departureairline-home" placeholder="Ex: United">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="departureairline-home">Airline</label>
+              <input type="text" class="form-control" id="departureairline-home" placeholder="Ex: United">
+            </p>
 
-          <p class="form-group">
-            <label for="flightnumber-home">Flight #</label>
-            <input type="text" class="form-control" id="flightnumber-home" placeholder="Ex: 1234">
-          </p>
+            <p class="col-md-6">
+              <label for="flightnumber-home">Flight #</label>
+              <input type="text" class="form-control" id="flightnumber-home" placeholder="Ex: 1234">
+            </p>
+          </div>
 
-          <p class="form-group">
-            <label for="departureairport-home">Departure Airport</label>
-            <input type="text" class="form-control" id="departureairport-home" placeholder="Airport Code">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="departureairport-home">Departure Airport</label>
+              <input type="text" class="form-control" id="departureairport-home" placeholder="Airport Code">
+            </p>
 
-          <p class="form-group">
-            <label for="departuredatetime-home">Date & Time</label>
-            <input type="datetime-local" class="form-control" id="departuredatetime-home">
-          </p>
+            <p class="col-md-6">
+              <label for="departuredatetime-home">Date & Time</label>
+              <input type="datetime-local" class="form-control" id="departuredatetime-home">
+            </p>
+          </div>
 
-          <p class="form-group">
-            <label for="arrivalairport-home">Arrival Airport</label>
-            <input type="text" class="form-control" id="arrivalairport-home" placeholder="Airport Code">
-          </p>
+          <div class="row">
+            <p class="col-md-6">
+              <label for="arrivalairport-home">Arrival Airport</label>
+              <input type="text" class="form-control" id="arrivalairport-home" placeholder="Airport Code">
+            </p>
 
-          <p class="form-group">
-            <label for="arrivaldatetime-home">Date & Time</label>
-            <input type="datetime-local" class="form-control" id="arrivaldatetime-home">
-          </p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">SUBMIT MY FLIGHT &raquo;</a>
+            <p class="col-md-6">
+              <label for="arrivaldatetime-home">Date & Time</label>
+              <input type="datetime-local" class="form-control" id="arrivaldatetime-home">
+            </p>
+          </div>
+
+          <p><a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">SUBMIT MY FLIGHT &raquo;</a></p>
+
         </form>
 
       </div>
